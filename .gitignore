@@ -1,0 +1,10 @@
+# Node.js dependencies
+node_modules/
+
+# Compilation outputs
+dist/
+
+# Logs and temporary files
+npm-debug.log*
+.DS_Store
+*.swp
