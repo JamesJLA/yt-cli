@@ -1,5 +1,5 @@
 # yt-cli
-ai powered program to summarize youtube videos. 
+ai powered cli tool to summarize youtube videos. 
 
 functions with ollama. 
 
