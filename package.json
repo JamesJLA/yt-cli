@@ -1,15 +1,1 @@
-{
-  "name": "ytcli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "typescript": "^5.9.3"
-  }
-}
+{"name":"yt-summarize","version":"1.0.0","description":"Free YouTube summarizer using local Ollama","type":"module","bin":{"yt-summarize":"./dist/index.js","yts":"./dist/index.js"},"preferGlobal":true,"scripts":{"build":"tsc","start":"node dist/index.js","dev":"tsx src/index.ts","prepublishOnly":"npm run build"},"keywords":["youtube","summarizer","ollama","llm","cli","transcript","ai"],"author":"jamesjla","license":"MIT","repository":{"type":"git","url":"https://github.com/jamesjla/yt-summarize.git"},"files":["dist/"],"dependencies":{"axios":"^1.13.2","chalk":"^5.3.0","cheerio":"^1.0.0-rc.12","commander":"^12.1.0","ollama":"^0.6.2","ora":"^8.2.0","youtube-transcript":"^1.2.1"},"devDependencies":{"@types/cheerio":"^0.22.35","@types/node":"^20.17.5","tsx":"^4.20.6","typescript":"^5.6.2"}}
